@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fgpG/X/PwKAumMGUyJjHyhAbU3yNLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s21921>; rel="up"
+Last-Modified: Mon, 22 Jun 2020 23:55:11 GMT
+ETag: "5qrYX9LT4QHVSlxzF79bWW"
+Date: Mon, 22 Jun 2020 23:56:19 GMT
+Content-Type: application/json
+Content-Length: 22
+
+{"company": "Pioneer"}

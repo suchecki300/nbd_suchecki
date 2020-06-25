@@ -1,0 +1,6 @@
+-Adding to database: 
+{'company': 'Pioneer', 'model': 'XZ'}
+-Editing document in database
+{'company': 'Pioneer', 'model': 'RZ'}
+-Removing document from database
+None

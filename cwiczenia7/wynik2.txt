@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fgrGfnvJwKAumMGUyJjHyhAQU3yNLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s21921>; rel="up"
+Last-Modified: Mon, 22 Jun 2020 22:18:16 GMT
+ETag: "1h6Xv2Rele9ulDVU58F3V3"
+Date: Mon, 22 Jun 2020 22:18:57 GMT
+Content-Type: application/json
+Content-Length: 66
+
+{"company": "Pioneer", "model": "XZ", "prize": 7800, "year": 2020}

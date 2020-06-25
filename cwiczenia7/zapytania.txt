@@ -1,0 +1,16 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Pioneer", "model": "XZ", "prize": 7800, "year": 2020}' http://localhost:8098/buckets/s21921/keys/controller1
+curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Pioneer", "model": "ZR", "prize": 3000, "year": 2020}' http://localhost:8098/buckets/s21921/keys/controller2
+curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Denon", "model": "MX2000", "prize": 2500, "year": 2018}' http://localhost:8098/buckets/s21921/keys/controller3
+curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Numark", "model": "MixTrack Pro", "prize": 600, "year": 2016}' http://localhost:8098/buckets/s21921/keys/controller4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Numark", "model": "M2", "prize": 300, "year": 2014}' http://localhost:8098/buckets/s21921/keys/controller5
+
+2. curl -i http://localhost:8098/buckets/s21921/keys/controller1
+3. curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Pioneer", "model": "XZ", "prize": 7800, "year": 2020, "madeFrom": "China"}' http://localhost:8098/buckets/s21921/keys/controller1
+4. curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Pioneer", "model": "ZR", "prize": 3000,}' http://localhost:8098/buckets/s21921/keys/controller2
+5. curl -i -XPUT -H "Content-Type: application/json" -d '{"company": "Denon", "model": "MX2000", "prize": 2200, "year": 2018}' http://localhost:8098/buckets/s21921/keys/controller3
+6. curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s21921/keys/controller5
+7. curl -i http://localhost:8098/buckets/s21921/keys/abcabcabca
+8. curl -i -H "Content-Type: application/json" -d '{"company": "Pioneer"}' http://localhost:8098/buckets/s21921/keys
+9. curl -i http://localhost:8098/buckets/s21921/keys/VdZWEMdcK0y7sE1zhDKp8UOaMPj
+10. curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s21921/keys/VdZWEMdcK0y7sE1zhDKp8UOaMPj
